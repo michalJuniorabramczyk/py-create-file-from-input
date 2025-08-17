@@ -1,5 +1,4 @@
 def main() -> None:
-    #"""Create a text file with user-provided content."""
     file_name = input("Enter name of the file: ").strip()
     if not file_name:
         print("File name cannot be empty.")
